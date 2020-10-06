@@ -1,0 +1,37 @@
+.heading-primary{
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    backface-visibility: hidden;
+    text-decoration: bold;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+}
+.heading-Secoundry{
+    font-size: 3rem;
+	font-weight: 700;
+	display: inline-block;
+    transition: all .4s;
+    text-transform: capitalize;
+    background-image: linear-gradient(to right,#7ed56f, #28b384);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-style: italic;
+}
+.heading-Secoundry-2{
+    font-size: 2.2rem;
+	font-weight: 500;
+	display: inline-block;
+    transition: all .4s;
+    text-transform: capitalize;
+    background-image: linear-gradient(to right,#7ed56f, #28b384);
+    -webkit-background-clip: text;
+    color: transparent;
+    &:hover{
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+    }
+}
+.para-small{
+    height: 7rem;
+    overflow: hidden;
+}

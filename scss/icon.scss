@@ -1,0 +1,17 @@
+.icon-facebook,
+.icon-twitter,
+.icon-youtube,
+.icon-instagram{
+    height: 2rem;
+    width: 3rem;
+    fill: #000;
+}
+.facebook:hover .icon-facebook{
+    fill: #4464a3;
+}
+.twitter:hover .icon-twitter{
+    fill: #55acee;
+}
+.instagram:hover .icon-instagram{
+    fill: #833AB4;
+}
