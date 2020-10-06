@@ -1,4 +1,5 @@
 var express     = require("express");
+var http = require("http");
 const expressSanitizer = require("express-sanitizer");
     ejs         = require("ejs");
     app         = express();
@@ -120,5 +121,5 @@ app.delete("/campground/:id", requireAuth ,function(req,res){
     });
 });
 app.use(authRoutes);
-port = process.env.PORT || config.__port_server,
-app.listen(port)
+app.listen(process.env.PORT || 3000, 
+	() => console.log("Server is running..."));
